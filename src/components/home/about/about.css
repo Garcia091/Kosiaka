@@ -1,0 +1,54 @@
+
+.Dere img{
+    width: 450px;
+    height: 545px;
+}
+
+.containerB{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.heading h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(252, 7, 7);
+    
+    margin: 20px 0;
+    width: 50%;
+}
+
+
+.top {
+    margin-top: 50px;
+}
+
+.about .img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.about .img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -30px;
+    right: 0;
+    background-color: black;
+    width: 500px;
+    height: 96vh;
+    z-index: -1;
+}

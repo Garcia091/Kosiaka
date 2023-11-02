@@ -1,0 +1,31 @@
+.work {
+    background-color: #08071c;
+    padding: 40px 0;
+    height: 170vh;
+}
+
+.work .heading {
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.work .content {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+}
+
+.work .box:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.work .box:nth-child(2) {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}

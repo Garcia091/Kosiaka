@@ -1,0 +1,51 @@
+.f1{
+    height: 150px; overflow: hidden;
+}
+
+.f2{
+    height: 100%; width: 100%;
+}
+.f3{
+    stroke: none; fill: #010504;
+}
+.f4{
+    stroke: none; fill: #126456;
+}
+
+
+footer {
+    background: linear-gradient(-45deg, #000000c2 0%, #a80b0b 100% );
+    text-align: center;
+    min-height: 10em;
+    color: #ffffffb3;
+  }
+  
+  #headerdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #pieLogo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .containerFoo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center
+  }
+  
+  .fa-brands {
+    padding: 0 10%;
+  }
+  
+  .fa-brands .h2 {
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+  }

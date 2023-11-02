@@ -1,0 +1,270 @@
+/*-----------Home ----------*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+
+.left2,
+.right2 {
+  width: 50%;
+  position: relative;
+ 
+}
+
+.flex {
+  display: flex;
+
+}
+
+.right2{
+  margin:auto 0;
+}
+
+.topMargin {
+  margin-top: 60px;
+}
+
+.home {
+  height: 90vh;
+
+}
+
+.home .img {
+  height: 70vh;
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+  
+}
+#Logo2{
+  display:none;
+}
+
+
+
+.home #Logo {
+  position: absolute;
+  top: 50px ;
+
+  height: 400px;
+  width: 400px;
+border-radius: 50%;
+  transform: scale(1.1);
+  animation-name: derecha;
+  animation-duration: 3s;
+}
+
+#logo{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.home h1 {
+  font-size: 40px;
+  animation-name: subida;
+  animation-duration: 3s;
+}
+
+.scoialIcon .fab {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+
+.scoialIcon i:hover {
+  color: #fff;
+}
+
+.facebook {
+  color: #4267b2;
+
+}
+
+.facebook:hover {
+  color: #2c4678;
+}
+
+.instagram {
+  color: #b24290;
+}
+
+.instagram:hover {
+  color: #831f65;
+}
+
+.twitter {
+  color: #3fa5f9;
+}
+
+.twitter:hover {
+  color: #14609d;
+}
+
+.whatsApp {
+  color: #0bdc07;
+}
+
+.whatsApp:hover {
+  color: #078a2a;
+}
+
+.tiktok {
+  color: #000000;
+
+}
+
+
+
+/*Boton principal*/
+.btn_tin {
+  text-align: center;
+}
+
+#tin {
+
+  padding: 17px 40px;
+  border-radius: 50px;
+  border: 3px solid rgb(252, 7, 7);
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all .5s ease;
+  margin-top: 50px;
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+
+}
+
+#tin:hover {
+  letter-spacing: 3px;
+  background-color: rgb(252, 7, 7);
+  color: hsl(0, 0%, 100%);
+  box-shadow: #ff403c 0px 7px 29px 0px;
+  font-weight: 500;
+}
+
+
+#tin:active {
+  letter-spacing: 3px;
+  background-color: rgb(252, 7, 7);
+  color: hsl(0, 0%, 100%);
+  box-shadow: #ff403c 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+.home .right {
+  margin-top: 10%;
+}
+
+.home .scoialIcon {
+  margin: 30px 0;
+}
+
+
+p {
+  color: #000;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+@keyframes subida {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%)
+  }
+}
+
+@keyframes izquierda {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+
+@keyframes derecha {
+  0% {
+    transform: translatey(100%);
+  }
+
+  100% {
+    transform: translatey(0%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .left2,
+  .right2 {
+    width: 80%;
+    margin: 0;
+  }
+
+  .left2{
+    display: none;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .topMargin {
+    margin: 30px;
+  }
+
+  .home {
+    height: 80vh;
+  }
+
+  .home .img {
+    height: 50vh;
+    width: 30%;
+ 
+  }
+
+  .home #Logo {
+    position: absolute;
+    top: 0;
+    height: 50vh;
+    width: 100%;
+    object-fit: contain;
+    transform: scale(1.1);
+    animation-name: derecha;
+    animation-duration: 3s;
+
+  }
+
+  .home{
+    text-align: center;
+  }
+  .home h1 {
+    font-size: 38px;
+    animation-name: subida;
+    animation-duration: 3s;
+  }
+  
+  
+
+}

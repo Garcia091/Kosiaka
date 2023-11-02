@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+:root {
+    --primary: #126456;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#mainMenu {
+    background-image: url('https://res.cloudinary.com/db9wh5uvt/image/upload/v1698840111/men_l2vucw.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-position: center;
+}
+
+.container-text-menu {
+    background-image: url('https://res.cloudinary.com/db9wh5uvt/image/upload/v1698712931/fondo3_gnw5uw.jpg');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: #952626;
+    padding-top: 20px;
+    font-size: 150px;
+    font-family: 'Bungee', cursive;
+    animation: filling 5s ease forwards;
+    text-align: center;
+    z-index: 1;
+}
+
+/*ECOLOME*/
+@keyframes filling {
+    from {
+        background-position: center 25%;
+    }
+
+    to {
+        background-position: center 50%;
+    }
+}
+
+
+  @media screen and (max-width: 600px) {
+    .contenedor{
+        flex-direction: column;
+    }
+    .container-text-menu{
+        font-size: 100px;
+    }
+    .card{
+        width: 400px;
+    }
+
+    img{
+        width: 400px;
+        height: 0px;
+      }
+  }

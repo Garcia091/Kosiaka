@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.imgLogo {
+  height: 70px;
+}
+
+
+/*------------------ Header -------------*/
+
+header {
+  color: #fff;
+  background-color: rgb(252, 7, 7);
+}
+
+header li {
+  padding: 20px 0;
+}
+
+header ul {
+  display: inline-block;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+header ul li a {
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.LogoP{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.Logo {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  font-size: 25px;
+  font-weight: 500;
+  transition: 0.5s;
+  animation-name: subida;
+  animation-duration: 3s;
+}
+
+header ul li a:before {
+  content: '';
+  background: rgb(255, 255, 255);
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+header ul li a:hover {
+  background-position: 0;
+
+}
+
+header ul li a:hover::before {
+  width: 100%;
+}
+
+.HeaderIcon {
+  margin-left: 20px;
+  transition: 0.5s;
+}
+
+.navbar-items-icon {
+  color: black;
+  display: none;
+  margin-top: 10px;
+}
+
+header.active {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 28px 0 rgba(0 0 0 /6%);
+  width: 100%;
+  z-index: 10;
+}
+
+@keyframes izquierda {
+  0% {
+      transform: translateX(-100%);
+  }
+
+  100% {
+      transform: translateX(0%);
+  }
+}
+
+@keyframes subida {
+  0% {
+      opacity: 0;
+      transform: translateY(100%);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateY(0%)
+  }
+}
+
+@media screen and (max-width: 768px) {
+ 
+ 
+  header .icon {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links-sidebar {
+    position: absolute;
+    display: block;
+    background-color: #080101b7;
+    left: 10px;
+    top: 75px;
+    transform-origin: 0.5s;
+    width: 100%;
+    height: 100vh;
+    z-index: 5;
+
+  }
+
+  .nav-links-sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  header ul li {
+    margin-bottom: 30px;
+  }
+
+  .navbar-items-icon {
+    display: block;
+    position: absolute;
+    right: 30px;
+    color: black;
+    border: 1px solid #000;
+    padding: 5px 10px;
+  }
+
+}
+
+
+
+
+/*------ Home -------*/
+
