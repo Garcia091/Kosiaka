@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Kosiaka/static/css/main.3dc335d7.css",
+    "main.js": "/Kosiaka/static/js/main.cce0814a.js",
+    "static/js/787.4dfd84f2.chunk.js": "/Kosiaka/static/js/787.4dfd84f2.chunk.js",
+    "index.html": "/Kosiaka/index.html",
+    "main.3dc335d7.css.map": "/Kosiaka/static/css/main.3dc335d7.css.map",
+    "main.cce0814a.js.map": "/Kosiaka/static/js/main.cce0814a.js.map",
+    "787.4dfd84f2.chunk.js.map": "/Kosiaka/static/js/787.4dfd84f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dc335d7.css",
+    "static/js/main.cce0814a.js"
+  ]
+}
