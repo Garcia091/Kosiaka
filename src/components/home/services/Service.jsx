@@ -11,7 +11,9 @@ const Service = () => {
                     <div className="heading">
                         <h3>Servicios</h3>
                         <h1>"La comida rápida no tiene por qué ser aburrida. Prueba nuestras creaciones únicas que te sorprenderán."</h1>
-                        <div className="btn_tinSer"><button id="tinSer"><Link to="/menu">Ver menú</Link></button></div>
+                        <div className="btn_tinSer">
+                            <button id="tinSer">
+                                <Link to="/menu">Ver menú</Link></button></div>
                     </div>
                     <div className="container grid topMarging">
                         {
