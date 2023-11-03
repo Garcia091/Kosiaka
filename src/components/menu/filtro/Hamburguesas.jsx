@@ -22,15 +22,15 @@ function Hamburguesas() {
             <div className="contenedor">
            {
               hamb.map((val) => {
-                const {nombre,descripcion,imagen}= val
+                const {nombre,descripcion,imagen,precio}= val
                 return (
                     <div className="card">
                     <h2>{nombre}</h2>
-                  
 
                     <div className="card__content">
                         <p className="card__title">{nombre}
                         </p><p className="card__description">{descripcion}</p>
+                        <p className="card__precio">{precio}</p>
                     </div>
                 </div>
                 )

@@ -13,6 +13,11 @@ import {useFirebaseApp} from 'reactfire'
 import Hamburguesas from './components/menu/filtro/Hamburguesas';
 import Footer from './components/footer/Footer';
 import Map from './maps/Map';
+import Perros from './components/menu/filtro/Perros';
+import Encuesta2 from './components/encuenta/Encuesta2';
+import Salchipapas from './components/menu/filtro/Salchipapas';
+
+
 
 function App() {
   const firebase = useFirebaseApp()
@@ -27,6 +32,10 @@ function App() {
         <Route path='/menu' exact component={Menu}/>
         <Route path='/ubucacion' exact component={Map}/>
         <Route path='/hamburguesas' exact component={Hamburguesas}/>
+        <Route path='/perros' exact component={Perros}/>
+        <Route path='/encuesta' exact component={Encuesta2}/>
+        <Route path='/salchipapas' exact component={Salchipapas}/>
+       
       </Switch>
       <Footer/>
     </Router>

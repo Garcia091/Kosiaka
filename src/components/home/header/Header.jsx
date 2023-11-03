@@ -36,7 +36,7 @@ const Header = () => {
                             <li><Link to="/historia">Historia</Link></li>
                             <li><Link to="/menu">Menú</Link></li>
                             <li><Link to="/ubucacion">Ubicación</Link></li>
-                            <li><Link to="/contact">Encuesta</Link></li>
+                            <li><Link to="/encuesta">Encuesta</Link></li>
                             <li className='icon'>
                                 <SearchOutlinedIcon className="HeaderIcon" />
                                 <WorkIcon className="HeaderIcon" />

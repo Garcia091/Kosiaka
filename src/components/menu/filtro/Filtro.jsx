@@ -15,7 +15,7 @@ function Filtro() {
                 <div className="cardF">
                     <span></span>
                     <div className="contentF">
-                        <Link to="/hamburguesas">
+                        <Link to="/perros">
                             <img className="imgfilter" 
                             src="https://res.cloudinary.com/db9wh5uvt/image/upload/v1698837745/Hot_oqvftb.png" alt="" srcset="" />
                             </Link>
@@ -25,7 +25,7 @@ function Filtro() {
                 <div className="cardF">
                     <span></span>
                     <div className="contentF">
-                        <Link to="/hamburguesas">
+                        <Link to="/salchipapas">
                             <img className="imgfilter" 
                             src="https://res.cloudinary.com/db9wh5uvt/image/upload/v1698838155/salchi_qqtezc.png" alt="" srcset="" />
                             </Link>
@@ -35,7 +35,7 @@ function Filtro() {
                 <div className="cardF">
                     <span></span>
                     <div className="contentF">
-                        <Link to="/hamburguesas">
+                        <Link to="/carnes">
                             <img className="imgfilter" 
                             src="https://res.cloudinary.com/db9wh5uvt/image/upload/v1698838132/carne_krejpi.jpg" alt="" srcset="" />
                             </Link>
