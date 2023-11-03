@@ -16,7 +16,7 @@ const Home = () => {
                 <div className="container flex">
                     <div className="left2">
                         <div className="img">
-                            <img src='./imagenes/Logo.jpeg' alt='' id="Logo" />
+                            <img src='https://res.cloudinary.com/db9wh5uvt/image/upload/v1699031704/Logo_tj6q9e.jpg' alt='' id="Logo" />
                         </div>
                     </div>
                     <div className="right2 topMargin">
